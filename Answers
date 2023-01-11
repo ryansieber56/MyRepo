@@ -1,0 +1,24 @@
+1.	What is Git and what does it do?
+    Git is an open source version control software that allows a user to save each time a change is made so you can look into your past code. Git stores all of these versions.
+
+2.	How is Github different from Git?
+    Github is a collaboration website that hosts Git repositories. It is used to interact with Git.
+
+3.	What is a branch? Why is it useful?
+    A branch is an exact replica of the master file. It allows a designer to make changes to the code without affecting anything that is in production.
+
+4.	What is a commit?
+    A commit is like making a change. It stores the changes you have made by taking a snapshot of the repository at that time.
+
+5.	What is a pull request?
+    A pull request compares the branch you made with another branch, like the master. You can view the differences between the two branches and show other people the differences to allow collaboration.
+
+6.	What is a fork? How would you find this to be useful?
+    A fork is an exact copy of a repository but under your own account so that you can have write access. This would be useful to modify someone else's code and then use a pull request so they can update their code with your modifications.
+
+7.	How do you clone a repository?
+    A clone is making a copy of the code. You can copy the project onto your own computer to work offline. You can do it from github.com, an IDE, the GitHub desktop app, or the terminal. It will bring a copy to your computer and you would have to manually update the online repository. More specifically on github.com, above the list of files there is a code button. Here, copy the URL for the repo, open Git bash, change the working directory to the location where the cloned directory will be stored, type git clone with the copied URL, and hit enter.
+
+8.	How do you resolve merge conflicts?
+    A merge conflict occurs when there is a change in the same file, in the same line, in the two branches you are trying to merge. First, run git status to see what file is having the issue. Then, open the file in the text editor and look for merge conflict markers. Finally, just pick the version you want to keep and get rid of the merge conflict markers. Save the changes and commit them. Git will then know the issue is resolved.
+
